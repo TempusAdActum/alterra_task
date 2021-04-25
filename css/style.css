@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background: #eceff4;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#container {
+    color: rgb(51, 51, 51);
+    width: 320px;
+    margin: 100px auto;
+}
+
+.padding {
+    padding: 0 25px 0 25px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.form {
+
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.05);
+    /*text-shadow: 0 3px 7px rgba(0, 0, 0, 0.05);*/
+}
+
+.addContactForm {
+    padding-bottom: 25px;
+}
+
+.addContactForm__tittle, .contacts__tittle {
+    height: 60px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+}
+
+
+.addContactForm__input {
+    margin: 5px 0;
+    padding-left: 15px;
+    border-width: 1px;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+
+    height: 40px;
+    width: 270px;
+    outline: none;
+}
+
+.addContactForm__input::placeholder {
+    color: rgba(51, 51, 51, 0.459);
+}
+
+.addContactForm__button-block {
+    text-align: right;
+}
+
+.addContactForm__button {
+    height: 40px;
+    width: 97px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(77, 89, 161);
+}
+
+.addContactForm__button:hover {
+    background-color: rgb(188, 50, 50);
+}
+
+.contact__block {
+    height: 68px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__block:last-child {
+    border: none;
+}
+
+.contact__name, .contact__phone {
+    margin: 0;
+}
+
+.contact__phone {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+
+.contact__actionDelete {
+    cursor: pointer;
+}
+
+.contact__actionDelete:hover {
+    color: red;
+}
